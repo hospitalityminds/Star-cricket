@@ -324,7 +324,6 @@
  <!-- Initialize Swiper -->
  <script>
      var swiper = new Swiper('.header-container', {
-     direction: 'vertical',
      loop:true,
      pagination: {
          el: '.swiper-pagination',
@@ -332,15 +331,15 @@
      },
      autoplay: {
         delay: 3000,
-     },
-     breakpoints: {
-        768: {
+    },
+    breakpoints: {
+        500: {
           mousewheel: true,
           keyboard: true,
           allowSlidePrev: true,
           allowSlideNext: true
         },
-     },   
+    },
      });
 
  </script>
