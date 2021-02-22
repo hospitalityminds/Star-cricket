@@ -49,6 +49,10 @@
 
 
    <main>
+
+    <div class="banner about-banner">
+        <h1>About Star Cricket Academy</h1>
+    </div>
        
  
 
@@ -99,6 +103,106 @@
         </div>
     </section>
     <!-- ******  program 1  end  ****** -->
+
+
+
+
+    
+   
+<!-- ****************************  Coaches start   *************************** -->
+
+ <section class="coach">
+
+    <h1 class="title">Star Coaches</h1>
+
+   <div class="coach-slider">
+
+       <!-- Swiper -->
+       <div class="swiper-container coach-slider-container">
+           <div class="swiper-wrapper">
+
+                   <div class="swiper-slide">
+                       <div class="block">
+                           <div class="img-container">
+                               <img src="https://i.pinimg.com/564x/14/34/9a/14349a0e446a36c45861447cb9ef753d.jpg" alt="support">
+                           </div>
+                           <div class="text">
+                               <h1 class="block-title">Ms Dhoni</h1>
+                               <h2 class="block-subtitle">Cricket Operation Manager</h2>
+                           </div>
+                       </div>
+                   </div> <!-- slide end -->
+                   
+                   <div class="swiper-slide">
+                       <div class="block">
+                           <div class="img-container">
+                               <img src="https://i.pinimg.com/564x/14/34/9a/14349a0e446a36c45861447cb9ef753d.jpg" alt="support">
+                           </div>
+                           <div class="text">
+                               <h1 class="block-title">Ms Dhoni</h1>
+                               <h2 class="block-subtitle">Cricket Operation Manager</h2>
+                           </div>
+                       </div>
+                   </div> <!-- slide end -->
+
+                   <div class="swiper-slide">
+                       <div class="block">
+                           <div class="img-container">
+                               <img src="https://i.pinimg.com/564x/14/34/9a/14349a0e446a36c45861447cb9ef753d.jpg" alt="support">
+                           </div>
+                           <div class="text">
+                               <h1 class="block-title">Ms Dhoni</h1>
+                               <h2 class="block-subtitle">Cricket Operation Manager</h2>
+                           </div>
+                       </div>
+                   </div> <!-- slide end -->
+
+                   <div class="swiper-slide">
+                       <div class="block">
+                           <div class="img-container">
+                               <img src="https://i.pinimg.com/564x/14/34/9a/14349a0e446a36c45861447cb9ef753d.jpg" alt="support">
+                           </div>
+                           <div class="text">
+                               <h1 class="block-title">Ms Dhoni</h1>
+                               <h2 class="block-subtitle">Cricket Operation Manager</h2>
+                           </div>
+                       </div>
+                   </div> <!-- slide end -->
+           
+                   <div class="swiper-slide">
+                       <div class="block">
+                           <div class="img-container">
+                               <img src="https://i.pinimg.com/564x/14/34/9a/14349a0e446a36c45861447cb9ef753d.jpg" alt="support">
+                           </div>
+                           <div class="text">
+                               <h1 class="block-title">Ms Dhoni</h1>
+                               <h2 class="block-subtitle">Cricket Operation Manager</h2>
+                           </div>
+                   </div>
+               </div> <!-- slide end -->
+
+               <div class="swiper-slide">
+                   <div class="block">
+                       <div class="img-container">
+                           <img src="https://i.pinimg.com/564x/14/34/9a/14349a0e446a36c45861447cb9ef753d.jpg" alt="support">
+                       </div>
+                       <div class="text">
+                           <h1 class="block-title">Title</h1>
+                           <h2 class="block-subtitle">Cricket Operation Manager</h2>
+                       </div>
+                    </div>
+                </div> <!-- slide end -->
+           </div>
+           
+               <!-- Add Pagination -->
+               <div class="swiper-pagination"></div>
+         </div>
+      </div>
+   </div>
+
+</section>
+<!-- ******  Coaches end  ****** -->
+
 
 
     
@@ -172,6 +276,47 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script src="js/main.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+   
+   // ***********   Coaches  ***************
+
+    var swiper = new Swiper('.coach-slider-container', {
+     slidesPerView: 1,	
+     loop: true,
+     pagination: {
+       el: '.swiper-pagination',
+     },
+     breakpoints: {
+         300: {
+         slidesPerView: 1,
+         spaceBetween: 5,
+       },
+       650: {
+         slidesPerView: 2,
+         spaceBetween: 5,
+       },
+       700: {
+         slidesPerView: 2,
+         spaceBetween: 5,
+       },
+       768: {
+         slidesPerView: 2,
+         spaceBetween: 5,
+       },
+       900: {
+         slidesPerView:3,
+         spaceBetween: 20,
+       },
+       1400: {
+         slidesPerView: 3,
+         spaceBetween: 5,
+       }
+   },
+   });
+
+</script>
  
 </body>
 </html>

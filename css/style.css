@@ -1170,8 +1170,8 @@ form .button{
 }
 
 .contact-container .contact-content-container .contact-content{
-margin-left: 30px;  
-margin-bottom: 40px;
+  margin-left: 30px;  
+  margin-bottom: 40px;
 }
 
 .contact-container .contact-content-container i{
@@ -1192,8 +1192,9 @@ margin-bottom: 40px;
   margin-bottom: 3px;
 }
 
+
 .contact-container .contact-content-container .contact-content a{
-  max-width: 300px;
+  width: 200px;
   color: var(--text-color);
   font-weight: 600;
 }
@@ -1225,6 +1226,12 @@ margin-bottom: 40px;
 }
 
 .gallery-banner{
+  background: linear-gradient(rgba(0,45,115,.5),rgba(0,45,115,.6)),url(../image/gallery/5.jpg) no-repeat;
+  background-size: cover;
+  background-position: 100% 37%;
+}
+
+.about-banner{
   background: linear-gradient(rgba(0,45,115,.5),rgba(0,45,115,.6)),url(../image/gallery/5.jpg) no-repeat;
   background-size: cover;
   background-position: 100% 37%;
